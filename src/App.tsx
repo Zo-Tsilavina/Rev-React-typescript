@@ -2,7 +2,11 @@ import { TaskManager } from "./components/TaskManager";
 import "./App.css";
 
 function App() {
-  return <TaskManager />;
+  return (
+    <div className="container">
+      <TaskManager/>
+    </div>
+  )
 }
 
 export default App;
